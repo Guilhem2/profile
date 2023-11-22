@@ -24,6 +24,8 @@ div {
 .container {
   width: 1000px;
   margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
   text-align: center;
   position: center;
