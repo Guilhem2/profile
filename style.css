@@ -8,7 +8,8 @@ h2 {
   margin-right: 15px;
 }
 .leisure_comment {
-  font-size: 120%;
+  font-size: 20px;
+  margin: auto;
 }
 .text_center {
   text-align: center;
@@ -29,7 +30,7 @@ div {
   align-items: center;
   text-align: center;
   position: center;
-  background-color: rgba(204, 193, 221, .9);
+  background-color: rgb(300, 300, 300);
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -50,6 +51,7 @@ div {
   }
 }
 .card {
+  height: 80px;
   margin: 10px;
   padding: 1%;
   background-color: rgba(168, 74, 74, 0.1);
@@ -69,6 +71,9 @@ div {
   width: 3%;
   margin-left: 10px;
   align-items: center;
+}
+.social_media:hover {
+  background-color: gray;
 }
 .leisure_icon {
   height: 20px;
