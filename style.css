@@ -29,6 +29,7 @@ div {
   align-items: center;
   text-align: center;
   position: center;
+  background-color: rgba(204, 193, 221, .9);
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -51,6 +52,7 @@ div {
 .card {
   margin: 10px;
   padding: 1%;
+  background-color: rgba(168, 74, 74, 0.1);
 }
 #profile {
   width: 10%;
